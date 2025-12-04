@@ -1048,7 +1048,7 @@ object Extensions {
           if (externalPart.prefix != null) {
             syntheticJoinPart.setPrefix(externalPart.prefix)
           }
-          new ExternalJoinPart(syntheticJoinPart, externalPart.fullName)
+          new ExternalJoinPart(syntheticJoinPart, syntheticJoinPart.fullPrefix)
         }
     }
 
